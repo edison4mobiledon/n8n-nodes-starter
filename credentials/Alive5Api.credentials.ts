@@ -5,9 +5,9 @@ import {
 	INodeProperties,
 } from 'n8n-workflow';
 
-export class ExampleCredentialsApi implements ICredentialType {
-	name = 'exampleCredentialsApi';
-	displayName = 'Example Credentials API';
+export class Alive5Api implements ICredentialType {
+	name = 'alive5CredentialsApi';
+	displayName = 'Alive5 Credentials API';
 	properties: INodeProperties[] = [
 		// The credentials to get from user and save encrypted.
 		// Properties can be defined exactly in the same way
